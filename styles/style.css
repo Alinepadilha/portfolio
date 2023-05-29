@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --cor-primaria: #362222;
-    --cor-secundaria: #f6f6f6;
-    --cor-terciaria: #EDDBC7;
+    --cor-primaria: #ffffff;
+    --cor-secundaria: #000000;
+    --cor-terciaria: #000000;
 
     --fonte-principal: 'Krona One', sans-serif;
     --fonte--secundaria: 'Montserrat', sans-serif;
@@ -85,6 +85,10 @@ body {
     gap: 20px;
 }
 
+.link__portfolio {
+    color: #252525;
+}
+
 .apresentacao__links__subtitulo {
     font-size: 1,12rem;
     font-family: var(--fonte-principal);
@@ -111,7 +115,7 @@ body {
 }
 
 .apresentacao__links__navegacao:hover {
-    background-color: #3a3835;
+    background-color: #b6ad9f;
 }
 
 
