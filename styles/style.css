@@ -137,7 +137,8 @@ body {
     font-family: var(--fonte--secundaria);
     font-size: 1,12rem;
     font-weight: 600;
-    position: relative;
+
+    position: absolute;
 }
 
 @media (max-width: 1200px) {
