@@ -49,7 +49,7 @@ body {
 }
 
 .cabecalho__menu__link:hover {
-    color: var(#d4d4d4c7);
+    color: var(--cor-primaria);
    }
 
 .apresentacao {
@@ -137,6 +137,7 @@ body {
     font-family: var(--fonte--secundaria);
     font-size: 1,12rem;
     font-weight: 600;
+    position: relative;
 }
 
 @media (max-width: 1200px) {
@@ -156,4 +157,5 @@ body {
     .apresentacao__conteudo {
         width: auto;
     }
+
 }
